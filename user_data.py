@@ -68,7 +68,7 @@ def scrape(usr, usr_file_path):
 
     time.sleep(10)
 
-    '''
+
     bot.get('https://www.instagram.com/{}/'.format(usr))
     
     time.sleep(3.5)
@@ -105,7 +105,7 @@ def scrape(usr, usr_file_path):
 
     with open(usr_file_path + 'followings.txt', 'w') as file:
         file.write('\n'.join(users) + "\n")
-    '''
+
 
     bot.get('https://www.instagram.com/{}/'.format(usr))
 
